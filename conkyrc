@@ -73,8 +73,8 @@ $font${top_mem name 5}${alignr}${top mem 5} %
 ${font Arial:bold:size=10}${color #00AAFF}NETWORK ${color #0000AA}${hr 2}
 $font${color #505050}IP on eth0 $alignr ${color #AAAAAA}${addr eth0}
 
-${color #505050}Down $alignr ${color #AAAAAA}${downspeed eth0}
-${color #505050}Up $alignr ${color #AAAAAA}${upspeed eth0}
+${color #505050}Down $alignr ${color #AAAAAA}${downspeed eth0}/s
+${color #505050}Up $alignr ${color #AAAAAA}${upspeed eth0}/s
 
 ${color #505050}Downloaded: $alignr  ${color #AAAAAA}${totaldown eth0}
 ${color #505050}Uploaded: $alignr  ${color #AAAAAA}${totalup eth0}

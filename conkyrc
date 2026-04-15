@@ -1,6 +1,5 @@
 conky.config = {
 
-    -- Force Wayland strictly (Disable X11 to prevent rendering conflicts in 1.18.3)
     out_to_x = true,
     out_to_wayland = true,
 
